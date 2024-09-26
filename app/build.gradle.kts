@@ -51,16 +51,14 @@ dependencies {
 //    implementation(project(":merchantside"))
 //    implementation(project(":common"))
 
-    // feature a dependency
-
-    // feature b dependency
-
-    // feature b dependency
-
-    merchantSide()
+    // user side
     userSide()
+    // merchant side
+    merchantSide()
+    // common
     common()
 
+    // common dependencies for all modules
     retrofit()
     room()
     hilt()
