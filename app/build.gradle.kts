@@ -47,9 +47,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-//    implementation(project(":userside"))
-//    implementation(project(":merchantside"))
-//    implementation(project(":common"))
 
     // user side
     userSide()
@@ -63,3 +60,6 @@ dependencies {
     room()
     hilt()
 }
+
+//https://www.youtube.com/watch?v=kFWmL5opJNk
+//https://www.youtube.com/watch?v=Z97sl7MrrzE&t=1254s
