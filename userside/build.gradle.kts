@@ -23,4 +23,11 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 
     hilt()
+
+    retrofit()
+
+    fireStore()
+
+    // data store
+    datastorePrefProto()
 }

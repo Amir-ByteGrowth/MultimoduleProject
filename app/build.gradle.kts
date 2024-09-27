@@ -60,7 +60,7 @@ dependencies {
 
     // common dependencies for all modules
     // all retrofit libraries
-    retrofit()
+//    retrofit()
     //all room related libraries
     room()
     //all hilt related libraries

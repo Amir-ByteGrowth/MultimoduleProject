@@ -156,8 +156,8 @@ fun DependencyHandler.retrofit(){
     implementation(Dependencies.gsonConverter)
     implementation(Dependencies.okHttp)
     implementation(Dependencies.okHttpLoggingInterceptor)
-    implementation(Dependencies.chuckerDebug)
-    implementation(Dependencies.chuckerRelease)
+    debugImplementation(Dependencies.chuckerDebug)
+    releaseImplementation(Dependencies.chuckerRelease)
 
 }
 

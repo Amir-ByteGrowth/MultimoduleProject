@@ -20,8 +20,17 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-
+    // room
     room()
+    // retrofit
     retrofit()
+    // hilt
     hilt()
+    // glide
+    glide()
+    // fire store
+    fireStore()
+
+    // data store
+    datastorePrefProto()
 }

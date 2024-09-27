@@ -31,7 +31,7 @@ object Versions {
     const val lottieVer = "6.4.1"
 
     //chucker
-    const val chuckerDebugVer = "4.0.0"
+    const val chuckerDebugVer = "3.5.2"
     const val chuckerReleaseVer = "3.5.2"
 
     // permission
