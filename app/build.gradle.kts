@@ -59,7 +59,12 @@ dependencies {
     common()
 
     // common dependencies for all modules
+    // all retrofit libraries
     retrofit()
+    //all room related libraries
     room()
+    //all hilt related libraries
     hilt()
+    // coroutines
+    coroutines()
 }

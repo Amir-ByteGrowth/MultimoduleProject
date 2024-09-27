@@ -16,6 +16,9 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven (  "https://jitpack.io" )
+        maven ( "https://maven.sumsub.com/repository/maven-public/" )
+        maven ( "https://maven.google.com" )
     }
 }
 
