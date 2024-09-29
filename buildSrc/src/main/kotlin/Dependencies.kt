@@ -4,7 +4,7 @@ import org.gradle.kotlin.dsl.project
 object Dependencies {
 
     const val hiltAndroid = "com.google.dagger:hilt-android:${Versions.hilt}"
-    const val hiltCompiler = "com.google.dagger:hilt-android-compiler:${Versions.hilt}"
+    const val hiltCompiler = "com.google.dagger:hilt-compiler:${Versions.hilt}"
     const val hiltAgp = "com.google.dagger:hilt-android-gradle-plugin:${Versions.hilt}"
 
     const val okHttp = "com.squareup.okhttp3:okhttp:${Versions.okHttp}"
