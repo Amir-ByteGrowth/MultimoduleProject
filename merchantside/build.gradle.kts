@@ -8,7 +8,10 @@ apply<MainGradlePlugin>()
 
 android {
     namespace = "com.example.featureb"
-
+    buildFeatures {
+        buildConfig = true
+    }
+    merchantFlavors(this)
 }
 dependencies {
 

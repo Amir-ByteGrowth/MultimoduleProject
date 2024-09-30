@@ -8,6 +8,10 @@ apply<MainGradlePlugin>()
 android {
     namespace = "com.example.featurea"
 
+    buildFeatures {
+        buildConfig = true
+    }
+    userFlavors(this)
 }
 
 

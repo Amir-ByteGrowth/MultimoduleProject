@@ -1,5 +1,8 @@
+
 import com.android.build.gradle.LibraryExtension
+import com.android.build.gradle.internal.dsl.ProductFlavor
 import org.gradle.api.JavaVersion
+import org.gradle.api.NamedDomainObjectContainer
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 
@@ -29,6 +32,11 @@ class MainGradlePlugin : Plugin<Project> {
                 sourceCompatibility = JavaVersion.VERSION_17
                 targetCompatibility = JavaVersion.VERSION_17
             }
+
+
+
+            // product flavors
+
         }
     }
 
@@ -36,4 +44,5 @@ class MainGradlePlugin : Plugin<Project> {
         return extensions.getByType(LibraryExtension::class.java)
     }
 }
+
 

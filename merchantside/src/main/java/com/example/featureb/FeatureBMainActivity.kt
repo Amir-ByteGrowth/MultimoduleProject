@@ -6,7 +6,6 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.featureb.modules.NetworkModule
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 
@@ -28,6 +27,7 @@ class FeatureBMainActivity : AppCompatActivity() {
             insets
         }
 
-        findViewById<TextView>(R.id.tv).text = mainClass.getDescription()
+        findViewById<TextView>(R.id.tv).text =
+            "${mainClass.getDescription()} \nProduct flavor is b  "+ BuildConfig.BASE_URL
     }
 }
