@@ -39,6 +39,7 @@ android {
         buildConfig = true
     }
     mainAppFlavors(this)
+    ndkVersion = "25.1.8937393"
 }
 
 dependencies {
