@@ -24,12 +24,12 @@ fun NamedDomainObjectContainer<ProductFlavor>.createCommonFlavors() {
     }
 }
 
+// merchant flavor
 fun Project.merchantFlavors(android: LibraryExtension) {
     android.apply {
         flavorDimensions.add("default")
         productFlavors {
             create("development") {
-
                 buildConfigField("String", "BASE_URL", "\"https://dev.api.example.com.merchant.development\"")
             }
 
@@ -44,6 +44,8 @@ fun Project.merchantFlavors(android: LibraryExtension) {
         }
     }
 }
+
+// user flavor
 
 fun Project.userFlavors(android: LibraryExtension) {
     android.apply {
@@ -66,9 +68,7 @@ fun Project.userFlavors(android: LibraryExtension) {
     }
 }
 
-
-
-
+// main app flavor
 fun Project.mainAppFlavors(android: ApplicationExtension) {
     android.apply {
         flavorDimensions.add("default")
@@ -93,5 +93,18 @@ fun Project.mainAppFlavors(android: ApplicationExtension) {
 //                buildConfigField("String", "BASE_URL", "\"https://api.example.com.production\"")
             }
         }
+    }
+}
+
+// enable data binding
+
+// Apply dataBinding and viewBinding configurations to the Android library module
+fun LibraryExtension.applyBindingConfigs() {
+    dataBinding {
+        enable = true
+    }
+
+    viewBinding {
+        enable = true
     }
 }
