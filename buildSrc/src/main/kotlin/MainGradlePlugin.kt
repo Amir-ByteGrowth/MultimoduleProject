@@ -1,8 +1,6 @@
 
 import com.android.build.gradle.LibraryExtension
-import com.android.build.gradle.internal.dsl.ProductFlavor
 import org.gradle.api.JavaVersion
-import org.gradle.api.NamedDomainObjectContainer
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 
@@ -33,8 +31,7 @@ class MainGradlePlugin : Plugin<Project> {
                 targetCompatibility = JavaVersion.VERSION_17
             }
 
-
-
+            applyBindingConfigs()
             // product flavors
 
         }

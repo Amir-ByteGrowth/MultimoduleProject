@@ -12,7 +12,7 @@ android {
     buildFeatures {
         buildConfig = true
     }
-    applyBindingConfigs()
+//    applyBindingConfigs()
 }
 
 dependencies {

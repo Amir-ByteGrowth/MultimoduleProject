@@ -16,7 +16,7 @@ android {
     userFlavors(this)
 
     // bindings
-    applyBindingConfigs()
+//    applyBindingConfigs()
 
     defaultConfig {
         externalNativeBuild {

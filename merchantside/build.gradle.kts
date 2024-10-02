@@ -16,7 +16,7 @@ android {
     merchantFlavors(this)
 
     // bindings
-    applyBindingConfigs()
+//    applyBindingConfigs()
 }
 dependencies {
 
