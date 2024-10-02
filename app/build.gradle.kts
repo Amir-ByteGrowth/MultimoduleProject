@@ -72,4 +72,7 @@ dependencies {
     hilt()
     // coroutines
     coroutines()
+
+    // core module
+    coreModule()
 }

@@ -25,3 +25,4 @@ dependencyResolutionManagement {
 rootProject.name = "MultimoduleProject"
 include(":app", ":userside", ":merchantside")
 include(":common")
+include(":core")

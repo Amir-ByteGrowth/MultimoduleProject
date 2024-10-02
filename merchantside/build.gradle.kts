@@ -36,4 +36,7 @@ dependencies {
 
     // data store
     datastorePrefProto()
+
+    // core module
+    coreModule()
 }

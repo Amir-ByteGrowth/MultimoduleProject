@@ -178,6 +178,10 @@ fun DependencyHandler.common(){
     implementation(project(":common"))
 }
 
+fun DependencyHandler.coreModule(){
+    implementation(project(":core"))
+}
+
 //coroutines
 fun DependencyHandler.coroutines() {
     implementation(Dependencies.coroutinesCore)
