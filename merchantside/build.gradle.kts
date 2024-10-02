@@ -11,7 +11,12 @@ android {
     buildFeatures {
         buildConfig = true
     }
+
+    // flavors
     merchantFlavors(this)
+
+    // bindings
+    applyBindingConfigs()
 }
 dependencies {
 

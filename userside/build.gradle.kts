@@ -11,7 +11,13 @@ android {
     buildFeatures {
         buildConfig = true
     }
+
+    // product flavors
     userFlavors(this)
+
+    // bindings
+    applyBindingConfigs()
+
     defaultConfig {
         externalNativeBuild {
             cmake {
