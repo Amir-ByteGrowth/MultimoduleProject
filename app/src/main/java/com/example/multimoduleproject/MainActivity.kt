@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.featurea.FeatureAMainActivity
-import com.example.featureb.FeatureBMainActivity
+import com.example.merchant.MerchantMainActivity
 import com.example.featurec.FeatureCMainActivity
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
 
         //feature b
         findViewById<Button>(R.id.btnFeatureBScreen).setOnClickListener {
-            startActivity(Intent(this, FeatureBMainActivity::class.java))
+            startActivity(Intent(this, MerchantMainActivity::class.java))
         }
 
         //feature c

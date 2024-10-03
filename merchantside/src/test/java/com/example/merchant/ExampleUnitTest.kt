@@ -1,4 +1,4 @@
-package com.example.featureb
+package com.example.merchant
 
 import org.junit.Test
 

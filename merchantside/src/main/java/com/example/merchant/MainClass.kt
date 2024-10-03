@@ -1,4 +1,4 @@
-package com.example.featureb
+package com.example.merchant
 
 class MainClass {
     private val name = "Merchant"

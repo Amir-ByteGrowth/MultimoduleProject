@@ -1,6 +1,6 @@
-package com.example.featureb.modules
+package com.example.merchant.modules
 
-import com.example.featureb.MainClass
+import com.example.merchant.MainClass
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

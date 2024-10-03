@@ -7,7 +7,7 @@ plugins {
 apply<MainGradlePlugin>()
 
 android {
-    namespace = "com.example.featureb"
+    namespace = "com.example.merhcant"
     buildFeatures {
         buildConfig = true
     }
@@ -16,7 +16,7 @@ android {
     merchantFlavors(this)
 
     // bindings
-//    applyBindingConfigs()
+    applyBindingConfigs()
 }
 dependencies {
 

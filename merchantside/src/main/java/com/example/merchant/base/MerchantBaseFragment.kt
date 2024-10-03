@@ -1,11 +1,11 @@
-package com.example.featureb.base
+package com.example.merchant.base
 
 import android.os.Bundle
 import androidx.databinding.ViewDataBinding
 import androidx.lifecycle.ViewModelProvider
 import com.example.core.BaseFragment
 import com.example.core.BaseViewModel
-import com.example.featureb.SharedViewModel
+import com.example.merchant.SharedViewModel
 
 abstract class MerchantBaseFragment<T : ViewDataBinding, V : BaseViewModel> : BaseFragment<T, V>() {
     lateinit var sharedViewModel: SharedViewModel

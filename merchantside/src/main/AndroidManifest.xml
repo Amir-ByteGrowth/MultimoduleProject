@@ -3,7 +3,7 @@
 
     <application>
         <activity
-            android:name=".FeatureBMainActivity"
+            android:name="com.example.merchant.MerchantMainActivity"
             android:exported="false" />
     </application>
 

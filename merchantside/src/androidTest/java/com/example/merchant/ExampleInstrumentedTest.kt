@@ -1,4 +1,4 @@
-package com.example.featureb
+package com.example.merchant
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
