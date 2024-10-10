@@ -30,6 +30,12 @@ class MerchantMainActivity : BaseActivity<LayoutMerchantMainBinding, MerchantVie
     @Inject
     lateinit var  mainClass: MainClass
 
+    @Inject
+    lateinit var  mainClassWithContext: MainClassWithContext
+
+    @Inject
+    lateinit var classWithStrValue :  ClassWithStrValue
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -42,7 +48,10 @@ class MerchantMainActivity : BaseActivity<LayoutMerchantMainBinding, MerchantVie
 //            insets
 //        }
 
+//        mViewDataBinding.tv.text =
+//            "${mainClassWithContext.getString()} \nProduct flavor is b  "+ BuildConfig.BASE_URL
+
         mViewDataBinding.tv.text =
-            "${mainClass.getDescription()} \nProduct flavor is b  "+ BuildConfig.BASE_URL
+            "${classWithStrValue.getStrValue()} "
     }
 }

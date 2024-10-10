@@ -1,1 +1,3 @@
-<resources></resources>
+<resources>
+    <string name="usingContext">i got string using context</string>
+</resources>
